@@ -8,7 +8,11 @@ FROM php:8.2-apache
 COPY . /var/www/html/
 
 # Apache/PHP needs to be able to read the files and write to data/ (quote log).
-RUN chown -R www-data:www-data /var/www/html \
+# We create data/ explicitly here rather than relying on it already
+# existing in the repo, since empty folders don't reliably survive a
+# git push.
+RUN mkdir -p /var/www/html/data \
+    && chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html/data
 
 # Render provides a PORT environment variable at runtime and expects the

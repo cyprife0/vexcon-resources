@@ -1,0 +1,7 @@
+# Files that shouldn't be copied into the Docker image.
+.git
+.gitignore
+start-server.bat
+start-server.bat.txt
+README.md
+data/*.log

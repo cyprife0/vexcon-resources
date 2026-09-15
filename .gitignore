@@ -1,0 +1,8 @@
+# Local submission logs — should not be committed to version control.
+/data/*.log
+
+# Common OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json

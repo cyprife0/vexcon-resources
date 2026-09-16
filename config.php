@@ -32,6 +32,7 @@ $GLOBALS['nav_links'] = [
     'oil-gas-supply.php'=> 'Oil & Gas',
     'logistics.php'     => 'Logistics',
     'procurement.php'   => 'Procurement',
+    'production.php'    => 'Production',
     'contracting.php'   => 'Contracting',
     'contact.php'       => 'Contact',
 ];

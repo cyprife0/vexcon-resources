@@ -111,7 +111,16 @@ header.is-scrolled{
 }
 .nav{ display:flex; align-items:center; justify-content:space-between; gap:24px; }
 .brand{ display:flex; align-items:center; gap:12px; }
-.brand-mark{ width:40px; height:40px; flex:0 0 auto; }
+.brand-mark{
+  width:40px;
+  height:40px;
+  flex:0 0 auto;
+  object-fit:contain;
+  /* The logo file has a solid black background; "screen" blending makes
+     pure black pixels disappear into whatever's behind it (our dark
+     theme), so only the green/gold artwork appears to float there. */
+  mix-blend-mode:screen;
+}
 .brand-text{ display:flex; flex-direction:column; line-height:1; }
 .brand-text strong{ font-family:'Big Shoulders Display',sans-serif; font-size:20px; font-weight:800; letter-spacing:0.02em; }
 .brand-text span{ font-size:9.5px; letter-spacing:0.22em; color:var(--gold-bright); text-transform:uppercase; margin-top:4px; }

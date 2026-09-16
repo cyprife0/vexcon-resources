@@ -14,7 +14,7 @@ declare(strict_types=1);
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.php" class="brand">
-          <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><polygon points="24,3 43,14 43,34 24,45 5,34 5,14" stroke="#c7a03e" stroke-width="2"/><path d="M14 30 L24 12 L34 30 Z" stroke="#1fae7c" stroke-width="2.2" fill="none" stroke-linejoin="round"/><circle cx="24" cy="26" r="2.6" fill="#e6c568"/></svg>
+          <img src="assets/img/logo.png" alt="<?= vx_e(SITE_NAME) ?> logo" class="brand-mark">
           <span class="brand-text"><strong><?= vx_e(strtoupper(SITE_SHORT_NAME)) ?></strong><span>RESOURCES LIMITED</span></span>
         </a>
         <p>Reliable Oil &amp; Gas supply, diesel, logistics, procurement, and distribution solutions.</p>
@@ -37,6 +37,8 @@ declare(strict_types=1);
           <li><a href="oil-gas-supply.php">Oil &amp; Gas</a></li>
           <li><a href="logistics.php">Logistics</a></li>
           <li><a href="procurement.php">Procurement</a></li>
+          <li><a href="production.php">Production</a></li>
+          <li><a href="contracting.php">Contracting</a></li>
         </ul>
       </div>
 

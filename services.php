@@ -67,6 +67,13 @@ require __DIR__ . '/includes/header.php';
         <a class="service-link" href="contracting.php">Learn more <?= vx_icon('arrow-right') ?></a>
       </div>
 
+      <div class="service-card" id="production">
+        <?= vx_icon('production', 'service-icon') ?>
+        <h3>Production</h3>
+        <p>Diesel production capability that supports consistent, dependable supply.</p>
+        <a class="service-link" href="production.php">Learn more <?= vx_icon('arrow-right') ?></a>
+      </div>
+
     </div>
   </div>
 </section>

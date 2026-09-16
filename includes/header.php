@@ -31,6 +31,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="<?= vx_e($bodyClass) ?>">
@@ -38,11 +39,7 @@ $currentPage = basename($_SERVER['SCRIPT_NAME']);
 <header id="site-header">
   <div class="wrap nav">
     <a href="index.php" class="brand" aria-label="<?= vx_e(SITE_NAME) ?> home">
-      <svg class="brand-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <polygon points="24,3 43,14 43,34 24,45 5,34 5,14" stroke="#c7a03e" stroke-width="2"/>
-        <path d="M14 30 L24 12 L34 30 Z" stroke="#1fae7c" stroke-width="2.2" fill="none" stroke-linejoin="round"/>
-        <circle cx="24" cy="26" r="2.6" fill="#e6c568"/>
-      </svg>
+      <img src="assets/img/logo.png" alt="<?= vx_e(SITE_NAME) ?> logo" class="brand-mark">
       <span class="brand-text">
         <strong><?= vx_e(strtoupper(SITE_SHORT_NAME)) ?></strong>
         <span>RESOURCES LIMITED</span>

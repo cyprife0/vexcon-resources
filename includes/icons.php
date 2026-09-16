@@ -32,6 +32,8 @@ function vx_icon(string $name, string $class = ''): string
         'transport' => '<rect x="4" y="20" width="22" height="12" rx="1.5" stroke="currentColor" stroke-width="2"/><path d="M26 22h8l6 6v4h-14z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="13" cy="34" r="3.5" stroke="currentColor" stroke-width="2"/><circle cx="34" cy="34" r="3.5" stroke="currentColor" stroke-width="2"/>',
         'deliver' => '<path d="M24 6v22M14 20l10 10 10-10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 34v6h32v-6" stroke="currentColor" stroke-width="2"/>',
         'arrow-right' => '<path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+        'contracting' => '<path d="M6 40h36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M10 40V22a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v18M28 40V16a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v24" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="14" cy="14" r="4" stroke="currentColor" stroke-width="2"/><path d="M11.5 11.5l-3-3M16.5 11.5l3-3M11.5 16.5l-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>',
+        'production' => '<path d="M8 40h32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="10" y="24" width="10" height="16" stroke="currentColor" stroke-width="2"/><rect x="24" y="16" width="10" height="24" stroke="currentColor" stroke-width="2"/><path d="M27 16c0-4 3-5 3-8 0 3 3 4 3 8" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="15" cy="31" r="2" fill="currentColor"/>',
     ];
 
     $paths = $icons[$name] ?? '';

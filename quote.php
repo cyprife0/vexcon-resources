@@ -23,6 +23,7 @@ $serviceLabels = [
     'oil-gas-supply'  => 'Oil & Gas Supply',
     'logistics'       => 'Logistics',
     'procurement'     => 'Procurement',
+    'contracting'     => 'Contracting (Pipeline / Fabrication)',
 ];
 $requestedService = $_GET['service'] ?? '';
 $productDefault = $old['product'] ?? ($serviceLabels[$requestedService] ?? '');

@@ -60,6 +60,13 @@ require __DIR__ . '/includes/header.php';
         <a class="service-link" href="quote.php">Request this service <?= vx_icon('arrow-right') ?></a>
       </div>
 
+      <div class="service-card" id="contracting">
+        <?= vx_icon('contracting', 'service-icon') ?>
+        <h3>Contracting</h3>
+        <p>Contracting support for Oil &amp; Gas pipeline works, fabrication, and related supplies.</p>
+        <a class="service-link" href="contracting.php">Learn more <?= vx_icon('arrow-right') ?></a>
+      </div>
+
     </div>
   </div>
 </section>
